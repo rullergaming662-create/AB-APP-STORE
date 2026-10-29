@@ -13,7 +13,7 @@ body{margin:0;background:radial-gradient(ellipse at 80% 0,rgba(72,111,255,.19),t
 .wrap{width:min(1050px,calc(100% - 32px));margin:auto}
 header{height:78px;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid var(--line)}
 .brand{display:flex;align-items:center;gap:11px;font-size:20px;font-weight:850;letter-spacing:-.5px}
-.logo{height:40px;width:40px;border-radius:13px;display:grid;place-items:center;background:linear-gradient(135deg,var(--blue),var(--cyan));font-size:19px;font-weight:900;box-shadow:0 8px 25px #416dff40}
+.logo{height:40px;width:40px;border-radius:13px;display:grid;place-items:center;overflow:hidden;background:linear-gradient(135deg,var(--blue),var(--cyan));box-shadow:0 8px 25px #416dff40}.logo img{width:100%;height:100%;display:block;object-fit:cover}
 nav{font-size:13px;color:var(--muted)}
 .hero{padding:68px 0 35px}
 .pill{display:inline-flex;align-items:center;gap:8px;padding:8px 12px;border-radius:99px;background:#5d8cff16;border:1px solid #5d8cff38;color:#a9c0ff;font-size:11px;font-weight:800;letter-spacing:1.3px;text-transform:uppercase}
@@ -45,7 +45,7 @@ footer strong{color:#cbd5e5}
 </head>
 <body>
 <header class="wrap">
-  <a class="brand" href="#" aria-label="Ab App Store home"><span class="logo">A</span><span>Ab App Store</span></a>
+  <a class="brand" href="#" aria-label="Ab App Store home"><span class="logo"><img src="ab-store-logo.png" alt="Ab App Store logo"></span><span>Ab App Store</span></a>
   <nav>Android apps · Direct downloads</nav>
 </header>
 <main class="wrap">
