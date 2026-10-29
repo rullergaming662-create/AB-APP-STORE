@@ -7,7 +7,7 @@
 <meta name="description" content="Download ChatZapp for Android from Ab App Store.">
 <title>Ab App Store — ChatZapp</title>
 <style>
-:root{color-scheme:dark;--bg:#080b14;--panel:#111827;--muted:#9aa8bd;--blue:#5d8cff;--cyan:#47d8f1;--line:rgba(255,255,255,.09)}
+:root{color-scheme:dark;--bg:#080b14;--muted:#9aa8bd;--blue:#5d8cff;--cyan:#47d8f1;--line:rgba(255,255,255,.09)}
 *{box-sizing:border-box}
 body{margin:0;background:radial-gradient(ellipse at 80% 0,rgba(72,111,255,.19),transparent 42%),var(--bg);color:#f5f7fc;font-family:Inter,system-ui,-apple-system,"Segoe UI",sans-serif;min-height:100vh}
 .wrap{width:min(1050px,calc(100% - 32px));margin:auto}
@@ -26,7 +26,8 @@ h1 span{background:linear-gradient(100deg,#fff,#91b5ff 60%,#5be2f3);-webkit-back
 h2{margin:0;font-size:23px;letter-spacing:-.7px}
 .section-head p{margin:6px 0 0;color:var(--muted);font-size:13px}
 .card{display:grid;grid-template-columns:auto 1fr;gap:20px;align-items:center;padding:25px;border:1px solid var(--line);border-radius:24px;background:linear-gradient(145deg,#151c2b,#0e1420);box-shadow:0 20px 60px #0003}
-.appicon{width:88px;height:88px;border-radius:24px;background:linear-gradient(135deg,#436dff,#38cbe8);display:grid;place-items:center;font-size:36px;font-weight:900;box-shadow:0 12px 30px #426dff35}
+.appicon{width:100px;height:100px;border-radius:24px;overflow:hidden;flex-shrink:0;background:#fff;box-shadow:0 12px 30px #426dff35}
+.appicon img{width:100%;height:100%;object-fit:cover;display:block}
 .appname{margin:0;font-size:25px;font-weight:850;letter-spacing:-.7px}
 .dev{color:var(--muted);font-size:13px;margin:6px 0 0}
 .desc{color:#b7c2d4;font-size:14px;line-height:1.7;margin:16px 0}
@@ -39,7 +40,7 @@ h2{margin:0;font-size:23px;letter-spacing:-.7px}
 .hint strong{color:#dce5f5}
 footer{border-top:1px solid var(--line);padding:24px 0 32px;color:#758198;font-size:12px;display:flex;justify-content:space-between;gap:12px}
 footer strong{color:#cbd5e5}
-@media(max-width:600px){.wrap{width:calc(100% - 26px)}header{height:68px}nav{display:none}.hero{padding:43px 0 27px}h1{letter-spacing:-1.8px}.card{grid-template-columns:1fr;padding:19px;gap:15px}.appicon{width:72px;height:72px;border-radius:20px;font-size:30px}.appname{font-size:23px}.btn{width:100%}footer{flex-direction:column}}
+@media(max-width:600px){.wrap{width:calc(100% - 26px)}header{height:68px}nav{display:none}.hero{padding:43px 0 27px}h1{letter-spacing:-1.8px}.card{grid-template-columns:1fr;padding:19px;gap:15px}.appicon{width:82px;height:82px;border-radius:20px}.appname{font-size:23px}.btn{width:100%}footer{flex-direction:column}}
 </style>
 </head>
 <body>
@@ -56,7 +57,7 @@ footer strong{color:#cbd5e5}
   <section class="section">
     <div class="section-head"><div><h2>Featured app</h2><p>Available now for Android</p></div></div>
     <article class="card">
-      <div class="appicon" aria-label="ChatZapp app icon">C</div>
+      <div class="appicon"><img src="chatzapp-icon.png" alt="ChatZapp app logo"></div>
       <div>
         <h3 class="appname">ChatZapp</h3>
         <p class="dev">By Ab Developer</p>
