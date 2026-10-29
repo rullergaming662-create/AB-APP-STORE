@@ -1,82 +1,53 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="theme-color" content="#080b14">
-<meta name="description" content="Download ChatZapp for Android from Ab App Store.">
-<title>Ab App Store — ChatZapp</title>
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#080b12">
+<title>Ab App Store</title>
 <style>
-:root{color-scheme:dark;--bg:#080b14;--muted:#9aa8bd;--blue:#5d8cff;--cyan:#47d8f1;--line:rgba(255,255,255,.09)}
-*{box-sizing:border-box}
-body{margin:0;background:radial-gradient(ellipse at 80% 0,rgba(72,111,255,.19),transparent 42%),var(--bg);color:#f5f7fc;font-family:Inter,system-ui,-apple-system,"Segoe UI",sans-serif;min-height:100vh}
-.wrap{width:min(1050px,calc(100% - 32px));margin:auto}
-header{height:78px;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid var(--line)}
-.brand{display:flex;align-items:center;gap:11px;font-size:20px;font-weight:850;letter-spacing:-.5px}
-.logo{height:40px;width:40px;border-radius:13px;display:grid;place-items:center;overflow:hidden;background:linear-gradient(135deg,var(--blue),var(--cyan));box-shadow:0 8px 25px #416dff40}.logo img{width:100%;height:100%;display:block;object-fit:cover}
-nav{font-size:13px;color:var(--muted)}
-.hero{padding:68px 0 35px}
-.pill{display:inline-flex;align-items:center;gap:8px;padding:8px 12px;border-radius:99px;background:#5d8cff16;border:1px solid #5d8cff38;color:#a9c0ff;font-size:11px;font-weight:800;letter-spacing:1.3px;text-transform:uppercase}
-.pill i{width:7px;height:7px;border-radius:50%;background:#5ce3a5;box-shadow:0 0 12px #5ce3a5}
-h1{font-size:clamp(39px,7vw,70px);letter-spacing:-3px;line-height:1.02;margin:20px 0 16px}
-h1 span{background:linear-gradient(100deg,#fff,#91b5ff 60%,#5be2f3);-webkit-background-clip:text;background-clip:text;color:transparent}
-.hero p{max-width:610px;color:var(--muted);line-height:1.75;margin:0;font-size:16px}
-.section{padding:20px 0 60px}
-.section-head{display:flex;justify-content:space-between;align-items:end;margin:10px 0 18px;gap:12px}
-h2{margin:0;font-size:23px;letter-spacing:-.7px}
-.section-head p{margin:6px 0 0;color:var(--muted);font-size:13px}
-.card{display:grid;grid-template-columns:auto 1fr;gap:20px;align-items:center;padding:25px;border:1px solid var(--line);border-radius:24px;background:linear-gradient(145deg,#151c2b,#0e1420);box-shadow:0 20px 60px #0003}
-.appicon{width:100px;height:100px;border-radius:24px;overflow:hidden;flex-shrink:0;background:#fff;box-shadow:0 12px 30px #426dff35}
-.appicon img{width:100%;height:100%;object-fit:cover;display:block}
-.appname{margin:0;font-size:25px;font-weight:850;letter-spacing:-.7px}
-.dev{color:var(--muted);font-size:13px;margin:6px 0 0}
-.desc{color:#b7c2d4;font-size:14px;line-height:1.7;margin:16px 0}
-.tags{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:19px}
-.tag{font-size:11px;color:#b4c1d5;background:#ffffff08;border:1px solid var(--line);border-radius:8px;padding:7px 10px}
-.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;background:linear-gradient(100deg,#4e7fff,#3988ee);color:white;text-decoration:none;border:0;border-radius:13px;padding:14px 22px;font-weight:800;font-size:14px;box-shadow:0 9px 25px #3b74ff30;transition:transform .18s,filter .18s}
-.btn:hover{transform:translateY(-2px);filter:brightness(1.1)}
-.btn svg{width:18px;height:18px}
-.hint{margin-top:18px;padding:18px 20px;border-radius:17px;border:1px solid #5d8cff2b;background:#5d8cff0b;color:var(--muted);font-size:13px;line-height:1.7}
-.hint strong{color:#dce5f5}
-footer{border-top:1px solid var(--line);padding:24px 0 32px;color:#758198;font-size:12px;display:flex;justify-content:space-between;gap:12px}
-footer strong{color:#cbd5e5}
-@media(max-width:600px){.wrap{width:calc(100% - 26px)}header{height:68px}nav{display:none}.hero{padding:43px 0 27px}h1{letter-spacing:-1.8px}.card{grid-template-columns:1fr;padding:19px;gap:15px}.appicon{width:82px;height:82px;border-radius:20px}.appname{font-size:23px}.btn{width:100%}footer{flex-direction:column}}
-</style>
-</head>
-<body>
-<header class="wrap">
-  <a class="brand" href="#" aria-label="Ab App Store home"><span class="logo"><img src="ab-store-logo.png" alt="Ab App Store logo"></span><span>Ab App Store</span></a>
-  <nav>Android apps · Direct downloads</nav>
-</header>
-<main class="wrap">
-  <section class="hero">
-    <div class="pill"><i></i> Your app destination</div>
-    <h1>Apps made simple.<br><span>Download with ease.</span></h1>
-    <p>Welcome to Ab App Store — discover apps and download Android APK files directly to your device.</p>
-  </section>
-  <section class="section">
-    <div class="section-head"><div><h2>Featured app</h2><p>Available now for Android</p></div></div>
-    <article class="card">
-      <div class="appicon"><img src="chatzapp-icon.png" alt="ChatZapp app logo"></div>
-      <div>
-        <h3 class="appname">ChatZapp</h3>
-        <p class="dev">By Ab Developer</p>
-        <p class="desc">Chat with your friends using ChatZapp. Download the Android app and get started.</p>
-        <div class="tags">
-          <span class="tag">Version 1.0</span>
-          <span class="tag">Android APK</span>
-          <span class="tag">Social</span>
-        </div>
-        <a class="btn" href="chatzapp.apk" download="chatzapp.apk">
-          <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 3v11m0 0 4-4m-4 4-4-4M4 17v3h16v-3" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
-          Download APK
-        </a>
-      </div>
-    </article>
-    <div class="hint"><strong>How to install:</strong> Download the APK on your Android phone, open the downloaded file, and follow Android's installation prompts. If asked, allow your browser or file manager to install apps from this source. Only install apps you trust.</div>
-  </section>
-</main>
-<footer class="wrap"><span>© <span id="year"></span> <strong>Ab App Store</strong>. All rights reserved.</span><span>Android app downloads</span></footer>
-<script>document.getElementById("year").textContent=new Date().getFullYear();</script>
-</body>
-</html>
+:root{color-scheme:dark;--bg:#080b12;--panel:#111722;--border:#222c3b;--text:#f5f7fb;--muted:#8793a6;--accent:#4d83ff;--accent2:#38c9e8}
+*{box-sizing:border-box}body{margin:0;background:radial-gradient(ellipse at 50% -15%,#18315a 0,transparent 45%),var(--bg);color:var(--text);font-family:Inter,system-ui,-apple-system,"Segoe UI",sans-serif;min-height:100vh}
+.wrap{width:min(960px,calc(100% - 30px));margin:0 auto}header{height:76px;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid #ffffff0c}
+.brand{display:flex;align-items:center;gap:11px;font-weight:850;font-size:20px;letter-spacing:-.6px}.brandmark{width:38px;height:38px;border-radius:12px;display:grid;place-items:center;background:linear-gradient(135deg,var(--accent),var(--accent2));font-size:19px;font-weight:900;box-shadow:0 8px 24px #347bff35}
+main{padding:36px 0 60px}.topline{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:23px}h1{font-size:clamp(25px,5vw,34px);letter-spacing:-1.2px;margin:0}.count{font-size:12px;color:#b8c8e6;background:#ffffff08;border:1px solid var(--border);padding:8px 11px;border-radius:99px;white-space:nowrap}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(255px,1fr));gap:15px}.card{min-width:0;background:linear-gradient(145deg,#141c29,#0e131c);border:1px solid var(--border);border-radius:21px;padding:19px;transition:transform .18s,border-color .18s;box-shadow:0 16px 40px #0002}.card:hover{transform:translateY(-3px);border-color:#426dba}
+.apphead{display:flex;align-items:center;gap:14px;min-width:0}.icon{width:67px;height:67px;border-radius:18px;background:#202a3a;overflow:hidden;flex:0 0 auto;display:grid;place-items:center;color:#c4d5f8;font-size:25px;font-weight:800}.icon img{width:100%;height:100%;object-fit:cover;display:block}
+.info{min-width:0}.name{margin:0;font-size:17px;font-weight:800;letter-spacing:-.35px;overflow-wrap:anywhere}.meta{margin-top:5px;color:var(--muted);font-size:12px}
+.download{margin-top:18px;display:flex;align-items:center;justify-content:center;gap:9px;width:100%;padding:13px 15px;border-radius:12px;background:linear-gradient(100deg,#477bff,#347eea);color:white;text-decoration:none;font-size:13px;font-weight:800;box-shadow:0 8px 22px #3a72ff22}.download:active{transform:scale(.99)}.download svg{width:17px;height:17px}
+.state{padding:45px 18px;text-align:center;color:var(--muted);border:1px dashed var(--border);border-radius:20px;line-height:1.65}.state strong{display:block;color:#e6edf8;font-size:15px;margin-bottom:5px}
+footer{padding:17px 0 25px;border-top:1px solid #ffffff0c;color:#647186;text-align:center;font-size:11px}
+@media(max-width:520px){header{height:68px}.brand{font-size:18px}main{padding-top:25px}.grid{grid-template-columns:1fr;gap:12px}.card{padding:16px}.icon{width:60px;height:60px;border-radius:16px}}
+</style></head><body>
+<header class="wrap"><div class="brand"><span class="brandmark">A</span><span>Ab App Store</span></div></header>
+<main class="wrap"><div class="topline"><h1>Apps</h1><span class="count" id="count">Loading…</span></div>
+<section class="grid" id="apps" aria-live="polite"><div class="state"><strong>Loading apps</strong>Please wait…</div></section></main>
+<footer class="wrap">Ab App Store</footer>
+<script>
+const OWNER="rullergaming662-create",REPO="AB-APP-STORE",BRANCH="main";
+const API=`https://api.github.com/repos/${OWNER}/${REPO}/contents/?ref=${BRANCH}`;
+const RAW=`https://raw.githubusercontent.com/${OWNER}/${REPO}/${BRANCH}/`;
+const grid=document.getElementById("apps"),count=document.getElementById("count");
+function cleanName(filename){return filename.replace(/\.apk$/i,"").replace(/[-_]+/g," ").replace(/\s+/g," ").trim().replace(/\b\w/g,c=>c.toUpperCase());}
+function iconFor(apk,files){
+ const stem=apk.replace(/\.apk$/i,""),norm=s=>s.toLowerCase().replace(/[^a-z0-9]/g,""),target=norm(stem);
+ const pngs=files.filter(f=>/\.png$/i.test(f.name)),names=pngs.map(f=>({f,n:norm(f.name.replace(/\.png$/i,""))}));
+ return (names.find(x=>x.n===target)||names.find(x=>x.n===target+"icon")||names.find(x=>x.n===target+"logo")||names.find(x=>x.n===target+"app")||{}).f?.name||null;
+}
+function render(files){
+ const apks=files.filter(f=>/\.apk$/i.test(f.name)).sort((a,b)=>a.name.localeCompare(b.name));
+ count.textContent=`${apks.length} ${apks.length===1?"app":"apps"}`;
+ if(!apks.length){grid.innerHTML='<div class="state"><strong>No apps found</strong>Upload APK files to this repository to show them here.</div>';return;}
+ grid.innerHTML="";
+ apks.forEach(apk=>{
+  const logo=iconFor(apk.name,files),name=cleanName(apk.name),card=document.createElement("article");card.className="card";
+  const head=document.createElement("div");head.className="apphead";
+  const icon=document.createElement("div");icon.className="icon";
+  if(logo){const img=document.createElement("img");img.src=RAW+encodeURIComponent(logo).replace(/%2F/g,"/");img.alt=name+" logo";img.onerror=()=>{icon.textContent=name.charAt(0).toUpperCase();};icon.appendChild(img);}else icon.textContent=name.charAt(0).toUpperCase();
+  const info=document.createElement("div");info.className="info";
+  const title=document.createElement("h2");title.className="name";title.textContent=name;
+  const meta=document.createElement("div");meta.className="meta";meta.textContent="Android APK";info.append(title,meta);head.append(icon,info);
+  const link=document.createElement("a");link.className="download";link.href=RAW+encodeURIComponent(apk.name).replace(/%2F/g,"/");link.setAttribute("download",apk.name);
+  link.innerHTML='<svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 3v11m0 0 4-4m-4 4-4-4M4 17v3h16v-3" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>Download APK';
+  card.append(head,link);grid.appendChild(card);
+ });
+}
+fetch(API,{headers:{Accept:"application/vnd.github+json"}}).then(r=>{if(!r.ok)throw Error();return r.json();}).then(render).catch(()=>{count.textContent="Unavailable";grid.innerHTML='<div class="state"><strong>Apps could not be loaded</strong>Please check your internet connection and try again.</div>';});
+</script></body></html>
